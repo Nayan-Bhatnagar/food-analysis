@@ -37,10 +37,6 @@ To process the data, both datasets were cleaned and then merged in the following
 Here are all the columns for the merged data:<br>
 <br>
 
-
-<table>
-<tr> <td>
-
 | Column         | Type           |
 |:---------------|:---------------|
 | name           | object         |
@@ -57,11 +53,6 @@ Here are all the columns for the merged data:<br>
 | fat            | float64        |
 | sugar          | float64        |
 | sodium         | float64        |
-
-</td> <td>
-
-| Column         | Type           |
-|:---------------|:---------------|
 | protein        | float64        |
 | sat fat        | float64        |
 | carbs          | float64        |
@@ -77,12 +68,10 @@ Here are all the columns for the merged data:<br>
 | review         | object         |
 | average rating | float64        |
 
-</td> </tr>
-</table>
-
 <br>
 Here is the head of the dataframe, but only showing the more important columns that will be used:<br>
-<br>
+(scroll right to see all)
+<br><br>
 
 | name                                 |   minutes |   n steps | ingredients                                                                                                                                                                    |   calories |   sugar prop |   sat fat prop | usa   | euro   |   rating |
 |:-------------------------------------|----------:|----------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------:|-------------:|---------------:|:------|:-------|---------:|
