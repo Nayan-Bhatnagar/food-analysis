@@ -16,10 +16,10 @@
     <a id="skip-to-content" href="#content">Skip to the content.</a>
 
     <header class="page-header" role="banner" style="background: url('https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_1280,ar_16:9/v1/img/recipes/40/97/24/UPxco6JORsm04l0IjKrU_0S9A3702.jpg')">
-      <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-      <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+      <h1 class="project-name" style="display:table;background-color:#77aadd">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+      <h2 class="project-tagline" style="display:table;background-color:#77aadd">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
       {% if site.github.is_project_page %}
-        <a href="{{ site.github.repository_url }}" class="btn">View GitHub Repo</a>
+        <a href="{{ site.github.repository_url }}" class="btn" style="display:table;background-color:#77aadd">View GitHub Repo</a>
       {% endif %}
       {% if site.show_downloads %}
         <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
