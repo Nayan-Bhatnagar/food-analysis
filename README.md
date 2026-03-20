@@ -1,5 +1,4 @@
-# Comparing Nutrition In European vs. American Recipes
-Analysis on recipes from food.com
+# Analysis on recipes from food.com
 
 By Nayan Bhatnagar
 
@@ -75,19 +74,19 @@ Here is the head of the dataframe, but only showing the more important columns t
 
 | name                                 |   minutes |   n steps | ingredients                                                                                                                                                                    |   calories |   sugar prop |   sat fat prop | usa   | euro   |   rating |
 |:-------------------------------------|----------:|----------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------:|-------------:|---------------:|:------|:-------|---------:|
-| 1 brownies in the world    best ever |        40 |        10 | ['bittersweet chocolate', 'unsalted butter', 'eggs', 'granulated sugar', 'unsweetened cocoa... |      138.4 |     0.362717 |       0.248345 | False | False  |        4 |
-| 1 in canada chocolate chip cookies   |        45 |        12 | ['white sugar', 'brown sugar', 'salt', 'margarine', 'eggs', 'vanilla', 'water', 'all-purpose flour', 'whole wheat flour...                    |      595.1 |     0.355981 |       0.155031 | False | False  |        5 |
-| 412 broccoli casserole               |        40 |         6 | ['frozen broccoli cuts', 'cream of chicken soup', 'sharp cheddar cheese', 'garlic powder', 'ground...          |      194.8 |     0.030924 |       0.334312 | False | False  |        5 |
-| 412 broccoli casserole               |        40 |         6 | ['frozen broccoli cuts', 'cream of chicken soup', 'sharp cheddar cheese', 'garlic powder', 'ground...          |      194.8 |     0.030924 |       0.334312 | False | False  |        5 |
-| 412 broccoli casserole               |        40 |         6 | ['frozen broccoli cuts', 'cream of chicken soup', 'sharp cheddar cheese', 'garlic powder', 'ground...          |      194.8 |     0.030924 |       0.334312 | False | False  |        5 |
+| 1 brownies in the world... |        40 |        10 | ['bittersweet chocolate', 'unsalted butter... |      138.4 |     0.362717 |       0.248345 | False | False  |        4 |
+| 1 in canada chocolate chip... |        45 |        12 | ['white sugar', 'brown sugar', 'salt', 'margar... |      595.1 |     0.355981 |       0.155031 | False | False  |        5 |
+| 412 broccoli casserole               |        40 |         6 | ['frozen broccoli cuts', 'cream of chicken... |      194.8 |     0.030924 |       0.334312 | False | False  |        5 |
+| 412 broccoli casserole               |        40 |         6 | ['frozen broccoli cuts', 'cream of chicken... |      194.8 |     0.030924 |       0.334312 | False | False  |        5 |
+| 412 broccoli casserole               |        40 |         6 | ['frozen broccoli cuts', 'cream of chicken... |      194.8 |     0.030924 |       0.334312 | False | False  |        5 |
 
 ### Univariate Analysis
 This plot shows the distribution of recipes by the proportion of how much of the recipe's calories come from sugar. It is clearly a unimodal and right skewed distribution, meaning that most recipes only have a sugar composition of around 10% or less, and that the counts decrease as the sugar proportion increases.
 
 <iframe
   src="assets/sugar-count.html"
-  width="800"
-  height="600"
+  width="820"
+  height="640"
   frameborder="0"
 ></iframe>
 
@@ -96,8 +95,8 @@ Here, there are two boxplots comparing the distribution of sugar composition bet
 
 <iframe
   src="assets/sugar-usa-vs-euro.html"
-  width="600"
-  height="800"
+  width="620"
+  height="840"
   frameborder="0"
 ></iframe>
 
@@ -121,8 +120,8 @@ These plot shows the empirical distribution of the test statistics from the perm
 
 <iframe
   src="assets/missingness-n-steps.html"
-  width="800"
-  height="600"
+  width="820"
+  height="640"
   frameborder="0"
 ></iframe>
 
@@ -130,8 +129,8 @@ These plot shows the empirical distribution of the test statistics from the perm
 
 <iframe
   src="assets/missingness-minutes.html"
-  width="800"
-  height="600"
+  width="820"
+  height="640"
   frameborder="0"
 ></iframe>
 
@@ -148,8 +147,8 @@ The resulting p-value is 0, so the null hypothesis can be rejected. This means t
 
 <iframe
   src="assets/test-sugar-diff.html"
-  width="800"
-  height="600"
+  width="820"
+  height="640"
   frameborder="0"
 ></iframe>
 
@@ -172,8 +171,8 @@ The final model gave entropy and a max depth of 100 as the best hyperparameters,
 
 <iframe
   src="assets/acc-by-max-depth.html"
-  width="800"
-  height="600"
+  width="820"
+  height="640"
   frameborder="0"
 ></iframe>
 
@@ -190,8 +189,8 @@ The test returned a p-value of 0.03, which is more than the significance level o
 
 <iframe
   src="assets/minutes-fairness-test.html"
-  width="800"
-  height="600"
+  width="820"
+  height="640"
   frameborder="0"
 ></iframe>
 
