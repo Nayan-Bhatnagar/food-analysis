@@ -1,4 +1,5 @@
-# Analysis on recipes from food.com
+# Comparing Nutrition In European vs. American Recipes
+### Analysis on recipes from food.com
 
 By Nayan Bhatnagar
 
