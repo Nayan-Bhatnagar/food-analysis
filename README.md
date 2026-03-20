@@ -117,7 +117,7 @@ I believe the rating column of the data might be missing not at random, meaning 
 ### Missingness Dependency
 Two permutation tests (at a significance level of 0.01) were done, which tested if the missingness of rating was associated with the mean number of steps in the recipes, and with the mean number of minutes recipes took. Both tests used absolute difference in means to compare recipes without a rating and those with a rating. The test with the number of steps returned a p-value of 0, so it's highly likely that the missingness of rating is dependent on the number of steps. However, the test with minutes returned a p-value of 0.1192, which is higher than 0.01, so the missingness of rating likely does not depend on the minutes a recipe takes.
 
-These plot shows the empirical distribution of the test statistics from the permutation test, and the observed statistics as well.
+These plots show the empirical distribution of the test statistics from the permutation tests, and the observed statistics as well.
 
 <iframe
   src="assets/missingness-n-steps.html"
