@@ -1,0 +1,8 @@
+Metric,Baseline,Final Model
+Training Accuracy,0.9989,0.9996
+Test Accuracy,0.5414,0.7601
+Precision (USA),0.5569,0.7674
+Recall (USA),0.5353,0.7665
+F1-Score (USA),0.5459,0.7669
+ROC-AUC,0.5596,0.8376
+CV Mean ± Std,N/A,0.7594 ± 0.0054

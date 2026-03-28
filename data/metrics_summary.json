@@ -1,0 +1,152 @@
+{
+  "baseline_metrics": {
+    "model": "Baseline (RF, 3 features)",
+    "train_accuracy": 0.9989107544840607,
+    "test_accuracy": 0.541388324135928,
+    "precision_usa": 0.556924882629108,
+    "recall_usa": 0.5352509870276367,
+    "f1_usa": 0.545872878918608,
+    "roc_auc": 0.5596088702459717
+  },
+  "final_metrics": {
+    "model": "Final (RF, ingredients + numeric)",
+    "train_accuracy": 0.9995643017936243,
+    "test_accuracy": 0.7600929422015684,
+    "precision_usa": 0.7673630717108978,
+    "recall_usa": 0.766497461928934,
+    "f1_usa": 0.7669300225733634,
+    "roc_auc": 0.8376347136522218,
+    "cv_mean": 0.7594220582633807,
+    "cv_std": 0.005414095327327803,
+    "cv_scores": [
+      0.7582577132486389,
+      0.7512708787218592,
+      0.7668845315904139,
+      0.7636165577342048,
+      0.7570806100217865
+    ],
+    "accuracy_ci": [
+      0.7458289063321064,
+      0.7743569780710304
+    ],
+    "precision_usa_ci": [
+      0.7532498119433458,
+      0.7814763314784497
+    ],
+    "recall_usa_ci": [
+      0.7523659469453725,
+      0.7806289769124954
+    ],
+    "f1_usa_ci": [
+      0.7528076196972879,
+      0.7810524254494389
+    ],
+    "top_20_features": [
+      {
+        "feature": "sugar_prop",
+        "importance": 0.060033492920154245
+      },
+      {
+        "feature": "protein_prop",
+        "importance": 0.054106437840994885
+      },
+      {
+        "feature": "calories",
+        "importance": 0.05300332897670705
+      },
+      {
+        "feature": "sat_fat_prop",
+        "importance": 0.04927536568018621
+      },
+      {
+        "feature": "olive oil",
+        "importance": 0.023163677074992596
+      },
+      {
+        "feature": "salt",
+        "importance": 0.00998020051466686
+      },
+      {
+        "feature": "garlic cloves",
+        "importance": 0.009321053518367326
+      },
+      {
+        "feature": "feta cheese",
+        "importance": 0.008937025433409415
+      },
+      {
+        "feature": "extra virgin olive oil",
+        "importance": 0.008781119348314319
+      },
+      {
+        "feature": "chili powder",
+        "importance": 0.00865801804745377
+      },
+      {
+        "feature": "butter",
+        "importance": 0.008217531464402005
+      },
+      {
+        "feature": "water",
+        "importance": 0.007559359124528345
+      },
+      {
+        "feature": "parmesan cheese",
+        "importance": 0.007177562528515501
+      },
+      {
+        "feature": "eggs",
+        "importance": 0.0070424849686997
+      },
+      {
+        "feature": "sugar",
+        "importance": 0.006767059299475275
+      },
+      {
+        "feature": "garlic powder",
+        "importance": 0.006761556534447634
+      },
+      {
+        "feature": "onion",
+        "importance": 0.006348843693577786
+      },
+      {
+        "feature": "flour",
+        "importance": 0.006199119477300128
+      },
+      {
+        "feature": "brown sugar",
+        "importance": 0.006165005500135368
+      },
+      {
+        "feature": "milk",
+        "importance": 0.006137517850421901
+      }
+    ]
+  },
+  "confusion_matrix_baseline": [
+    [
+      915,
+      755
+    ],
+    [
+      824,
+      949
+    ]
+  ],
+  "confusion_matrix_final": [
+    [
+      1258,
+      412
+    ],
+    [
+      414,
+      1359
+    ]
+  ],
+  "class_distribution": {
+    "usa_count": 1773,
+    "eur_count": 1670,
+    "total": 3443
+  }
+}
